@@ -132,6 +132,10 @@ finish：退出进入的函数。\
 until: 退出循环体\
 continue：继续运行程序，可以简写为c（若有断点，则直接跳到下一断点处。）\
 print: 打印变量。\
+display var： 自动显示变量名。\
+disable display 变量号: 不自动显示变量\
+### 查看变量类型
+ptype var: 查看变量类型。\
 
 
 
