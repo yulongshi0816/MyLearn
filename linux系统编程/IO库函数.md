@@ -42,6 +42,8 @@ newfd = dup( oldfd );\
 dup2函数：复制文件描述符\
 int dup2( int oldfd, int newfd );\
 如果newfd已经指向了文件，会先将newfd所指向的文件关闭，再指向oldfd的文件。\
+fcntl函数()\
+int fcntl(int fd, int cmd, **arg);\
 
 
   
